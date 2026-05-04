@@ -3,16 +3,16 @@
 
 class Wind_inf{
     private:
-    const float knm = 0.621;
-    const float mnk = 1.609;
+    const double knm = 0.6;
+    const double mnk = 1.6;
     const int k =45;
 
     public:
-    float v;
+    double v;
     int deg;
     bool czy_km = true;
 
-    int conv(){
+    double conv(){
         if(czy_km){
             czy_km = false;
             v= v*knm;
