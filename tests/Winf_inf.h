@@ -3,9 +3,6 @@
 #include <bist/stdc++.h>
 using namespace std;
 
-#include <iostream>
-
-
 class Wind_inf{
     private:
     const double knm;
