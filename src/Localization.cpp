@@ -21,7 +21,4 @@ public:
     }
 };
 
-int main(){
-    location k(50.0614, 19.9383);
-    k.mapa();
-}
+
