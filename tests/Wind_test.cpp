@@ -12,7 +12,6 @@ TEST(WindInfTest, HandlesConversion) {
 
 
 TEST(WindInfTest, ReturnsCorrectDirection) {
-    // Testowanie środka przedziałów
     EXPECT_EQ(Wind_inf(10.0, 45).kat(), "NE");
     EXPECT_EQ(Wind_inf(10.0, 90).kat(), "E");
     EXPECT_EQ(Wind_inf(10.0, 180).kat(), "S");
