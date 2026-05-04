@@ -20,6 +20,7 @@ class Wind_inf{
         }
         czy_km =true;
         v = v*mnk;
+        return v;
     }
     
     std::string kat(){
