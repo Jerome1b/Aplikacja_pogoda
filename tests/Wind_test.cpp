@@ -42,13 +42,13 @@ INSTANTIATE_TEST_SUITE_P(
     DirectionTests,
     WindDirectionTest,
     ::testing::Values(
-        WindDirParam{40, "N"},
-        WindDirParam{80, "NE"},
-        WindDirParam{120, "E"},
-        WindDirParam{160, "SE"},
-        WindDirParam{210, "S"},
-        WindDirParam{250, "SW"},
-        WindDirParam{300, "W"},
-        WindDirParam{340, "NW"}
+        WindDirParam{10, "N"},
+        WindDirParam{50, "NE"},
+        WindDirParam{100, "E"},
+        WindDirParam{140, "SE"},
+        WindDirParam{190, "S"},
+        WindDirParam{230, "SW"},
+        WindDirParam{280, "W"},
+        WindDirParam{320, "NW"}
     )
 );

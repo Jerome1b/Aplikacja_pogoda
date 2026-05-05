@@ -26,7 +26,7 @@ class Wind_inf{
     }
     
     std::string kat(){
-        int s = (deg-22)/k;
+        int s = (deg+22)/k;
         switch(s){
             case 0:
                 return "N";

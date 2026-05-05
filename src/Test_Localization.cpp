@@ -6,7 +6,7 @@ TEST(LocationTest, CheckCoords){
 	location loc(51.05,19.94);
 	
 	EXPECT_DOUBLE_EQ(loc.getX(), 51.05);
-    	EXPECT_DOUBLE_EQ(loc.getY(), 19.94);
+    EXPECT_DOUBLE_EQ(loc.getY(), 19.94);
 }
 
 TEST(LocationTest, CheckUrl){
