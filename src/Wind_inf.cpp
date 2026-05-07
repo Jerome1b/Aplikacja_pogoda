@@ -1,6 +1,6 @@
 #include "app.hpp"
 
-Wind_inf::Wind_inf(double v, int deg): v{v} deg{deg} {}
+Wind_inf::Wind_inf(double v, int deg): v{v}, deg{deg} {}
 
 double Wind_inf::conv(){
         if(czy_km){

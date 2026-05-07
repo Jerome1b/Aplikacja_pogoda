@@ -1,24 +1,19 @@
-#include <bits/stdc++.h>
-#include <nlohmann/json.hpp>
-#include <curl/curl.h>
+#include "app.hpp"
 using namespace std;
-using json = nlohmann::json;
 
 
-class location {
-private:
-    double x;
-    double y;
 
-public:
-    location(double x, double y): x(x), y(y) {}
+Location::Location(double x, double y): x{x}, y{y} {}
 
-    void mapa(){
-        cout<<this->x<<" "<<this->y;
-        string url = "https://www.google.com/maps/search/?api=1&query=" + to_string(this->x) + ',' + to_string(this->y);
-                string command = "xdg-open \"" + url + "\"";
-                int result =system(command.c_str());
-    }
-};
+double Location::getX() const {return x;}
+double Location::getY() const {return y;}
+std::string Location::genUrl(){
+    return "https://www.google.com/maps/search/?api=1&query=" + to_string(this->x) + ',' + to_string(this->y);
+}
+void Location::mapa(){
+    cout<<this->x<<" "<<this->y;
+    string command = "xdg-open \"" + genUrl() + "\"";
+    int result =system(command.c_str());
+}
 
 

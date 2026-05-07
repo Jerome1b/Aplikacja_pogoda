@@ -17,8 +17,9 @@ set(CMAKE_BUILD_TYPE Debug) # Dodaj opcję '-ggdb'
 
 # Pliki źródłowe naszego przykładowego projektu
 set(SOURCE 
-    Localization.cpp
-    Wind_Inf.cpp
+    src/Localization.cpp
+    src/Wind_inf.cpp
+    src/main.cpp
 )
 add_executable(main ${SOURCE}) #  Jako wynik kompilacji podanych plików źródłowych ma być tworzony plik wykonywalny 'main' 
 target_include_directories(main PUBLIC include) # Określamy katalogi, w których kompilator ma szukać plików nagłówkowych
@@ -27,10 +28,12 @@ target_include_directories(main PUBLIC include) # Określamy katalogi, w któryc
 include(CTest) 
 find_package(GTest REQUIRED)
 include(GoogleTest)
-add_executable(test/"Lokalizacja Test")
-add_executable(test/"Wind Test")
-target_link_libraries("Localizacja Test" GTest::gtest_main)
-target_link_libraries("Wind Test" GTest::gtest_main)
+add_executable(Localization_test tests/Localization_test.cpp src/Localization.cpp)
+add_executable(Wind_test tests/Wind_test.cpp src/Wind_inf.cpp)
+target_include_directories(Localization_test PUBLIC include)
+target_include_directories(Wind_test PUBLIC include)
+target_link_libraries(Localization_test GTest::gtest_main)
+target_link_libraries(Wind_test GTest::gtest_main)
 enable_testing()
-gtest_discover_tests(lok)
-gtest_discover_tests(Wind)
+gtest_discover_tests(Localization_test)
+gtest_discover_tests(Wind_test)
