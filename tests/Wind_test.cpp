@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "Wind_inf.h"
+#include "app.hpp"
 
 TEST(WindInfTest, HandlesConversion) {
     Wind_inf wind(100.0, 0);
