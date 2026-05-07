@@ -26,25 +26,8 @@ class Wind_inf{
     }
     
     std::string kat(){
-        int s = (deg+22)/k;
-        switch(s){
-            case 0:
-                return "N";
-            case 1:
-                return "NE";
-            case 2:
-                return "E";
-            case 3:
-                return "SE";
-            case 4:
-                return "S";
-            case 5:
-                return "SW";
-            case 6:
-                return "W";
-            case 7:
-                return "NW";
-        }
-        return "N";
+        int s = (deg+22)/k %8;
+        std::string a[] ={"N","NE","E", "SE","S","SW", "W","NW"};
+        return a[s];
     }
 };
