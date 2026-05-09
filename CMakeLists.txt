@@ -19,11 +19,15 @@ set(CMAKE_BUILD_TYPE Debug) # Dodaj opcję '-ggdb'
 set(SOURCE 
     src/Localization.cpp
     src/Wind_inf.cpp
+    src/ZapisDane.cpp
+    src/Extract_data.cpp
     src/main.cpp
 )
 add_executable(main ${SOURCE}) #  Jako wynik kompilacji podanych plików źródłowych ma być tworzony plik wykonywalny 'main' 
 target_include_directories(main PUBLIC include) # Określamy katalogi, w których kompilator ma szukać plików nagłówkowych
-
+find_package(CURL REQUIRED)
+target_link_libraries(main PUBLIC CURL::libcurl)
+configure_file(.env ${CMAKE_CURRENT_BINARY_DIR}/.env COPYONLY) #Dodaliśmy plik .env aby nikt nie brał nam klucza api z githuba
 
 include(CTest) 
 find_package(GTest REQUIRED)
