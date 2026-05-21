@@ -1,3 +1,4 @@
+#pragma once
 #include <bits/stdc++.h>
 #include <nlohmann/json.hpp>
 #include <curl/curl.h>
@@ -7,22 +8,30 @@ using namespace std;
 
 extern size_t ZapisDane(void* kontent, size_t size, size_t nmemb,string* dane);
 
+class Interface {
+public:
+    virtual ~Interface() {}
+    virtual std::string fetch(std::string url) = 0;
+};
 
-class Extarct_data{
+class Extract_data{
     private:
     string city;
-    bool czy_git;
+    Interface& client;
+    string get_key();
     public:
-    Extarct_data(std::string city);
+    Extract_data(std::string city, Interface& client);
     double x;
     double y;
     double v;
     int deg;
-    string get_key();
     void get();
 };
 
-
+class CURL_Klient : public Interface{
+    public:
+    string fetch(std::string url) override; 
+};
 
 class Location{
     private:

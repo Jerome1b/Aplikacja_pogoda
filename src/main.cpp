@@ -1,10 +1,13 @@
+#include <bits/stdc++.h>
 #include "app.hpp"
+using namespace std;
 
 int main(){
-	string city;
+	string miasto;
 	cout << "Podaj miasto: ";
-	cin >> city;
-	Extarct_data a(city);
+	cin >> miasto;
+	CURL_Klient klient;
+	Extract_data a(miasto, klient);
 	a.get();
 	Location p(a.x,a.y);
 	Wind_inf q(a.v,a.deg);
