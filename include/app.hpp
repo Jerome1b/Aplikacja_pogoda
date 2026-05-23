@@ -28,6 +28,19 @@ class Extract_data{
     void get();
 };
 
+class Extract_wykres{
+	private:
+	double lan;
+	double lon;
+    	Interface& client;
+	public:
+	Extract_wykres(double lan, double lon, Interface& client);
+	double wind_v[28];
+	double temp[28];
+	int hum[28];
+	void get();	
+};
+
 class CURL_Klient : public Interface{
     public:
     string fetch(std::string url) override; 

@@ -22,7 +22,7 @@ string CURL_Klient::fetch(string url) {
     return resData;
 }
 
-// Tylko implementacje metod Extract_data (BEZ słowa 'class')
+// Tylko implementacje metod Extract_data
 string Extract_data::get_key() {
     ifstream file(".env");
     string line;

@@ -20,6 +20,7 @@ set(SOURCE
     src/Extract_Data_Mock.cpp
     src/main.cpp
     src/ZapisDane.cpp
+    src/Extract_Wykres.cpp
 )
 
 add_executable(main ${SOURCE})
@@ -44,12 +45,20 @@ include(GoogleTest)
 add_executable(Localization_test tests/Test_Localization.cpp src/Localization.cpp)
 add_executable(Wind_test tests/Wind_test.cpp src/Wind_inf.cpp)
 add_executable(EXD_test tests/test_mock.cpp src/Extract_Data_Mock.cpp src/ZapisDane.cpp) 
+add_executable(EXW_test tests/test_mock_wyk.cpp src/Extract_Wykres.cpp src/ZapisDane.cpp src/Extract_Data_Mock.cpp )
 target_include_directories(Localization_test PUBLIC include)
 target_include_directories(Wind_test PUBLIC include)
 target_include_directories(EXD_test PUBLIC include)
+target_include_directories(EXW_test PUBLIC include)
 target_link_libraries(Localization_test PRIVATE gtest_main)
 target_link_libraries(Wind_test PRIVATE gtest_main)
 target_link_libraries(EXD_test 
+    PRIVATE 
+        gmock_main                    
+        CURL::libcurl                 
+        nlohmann_json::nlohmann_json  
+)
+target_link_libraries(EXW_test 
     PRIVATE 
         gmock_main                    
         CURL::libcurl                 
