@@ -1,4 +1,3 @@
-#include <bits/stdc++.h>
 #include "app.hpp"
 using namespace std;
 

@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-#include <nlohmann/json.hpp>
-#include <curl/curl.h>
 #include "app.hpp"
 
 using namespace std;

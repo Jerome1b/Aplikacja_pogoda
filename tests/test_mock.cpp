@@ -1,6 +1,5 @@
 #include <gmock/gmock.h>
 #include <gtest/gtest.h>
-#include <bits/stdc++.h>
 #include "app.hpp"
 using json = nlohmann::json;
 using namespace std;
