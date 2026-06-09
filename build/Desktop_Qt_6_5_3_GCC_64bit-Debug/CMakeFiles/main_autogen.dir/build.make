@@ -53,10 +53,10 @@ RM = /home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jedrzej/Studia/JKsqare
+CMAKE_SOURCE_DIR = /home/jedrzej/Studia/Projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+CMAKE_BINARY_DIR = /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
 
 # Utility rule file for main_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/main_autogen: main_autogen/timestamp
 main_autogen/timestamp: /home/jedrzej/Studia/Qt/6.5.3/gcc_64/./libexec/moc
 main_autogen/timestamp: /home/jedrzej/Studia/Qt/6.5.3/gcc_64/./libexec/uic
 main_autogen/timestamp: CMakeFiles/main_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
-	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/AutogenInfo.json Debug
-	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E touch /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
+	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/AutogenInfo.json Debug
+	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E touch /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/timestamp
 
 main_autogen: CMakeFiles/main_autogen
 main_autogen: main_autogen/timestamp
@@ -89,6 +89,6 @@ CMakeFiles/main_autogen.dir/clean:
 .PHONY : CMakeFiles/main_autogen.dir/clean
 
 CMakeFiles/main_autogen.dir/depend:
-	cd /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main_autogen.dir/depend
 

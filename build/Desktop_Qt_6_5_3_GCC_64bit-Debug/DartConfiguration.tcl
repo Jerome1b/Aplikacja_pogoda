@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/jedrzej/Studia/JKsqare
-BuildDirectory: /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+SourceDirectory: /home/jedrzej/Studia/Projekt
+BuildDirectory: /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake" "/home/jedrzej/Studia/JKsqare"
+ConfigureCommand: "/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake" "/home/jedrzej/Studia/Projekt"
 MakeCommand: /home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -45,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: /usr/bin/git
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +58,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: /usr/bin/git
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: /bin/g++-13

@@ -53,10 +53,10 @@ RM = /home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jedrzej/Studia/JKsqare
+CMAKE_SOURCE_DIR = /home/jedrzej/Studia/Projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+CMAKE_BINARY_DIR = /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,149 +72,149 @@ include CMakeFiles/main.dir/flags.make
 main_autogen/timestamp: /home/jedrzej/Studia/Qt/6.5.3/gcc_64/./libexec/moc
 main_autogen/timestamp: /home/jedrzej/Studia/Qt/6.5.3/gcc_64/./libexec/uic
 main_autogen/timestamp: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
-	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/AutogenInfo.json Debug
-	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E touch /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target main"
+	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E cmake_autogen /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen.dir/AutogenInfo.json Debug
+	/home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E touch /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/timestamp
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compilation.cpp
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -MF CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -MF CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp > CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp > CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/main.dir/src/Localization.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Localization.cpp.o: /home/jedrzej/Studia/JKsqare/src/Localization.cpp
+CMakeFiles/main.dir/src/Localization.cpp.o: /home/jedrzej/Studia/Projekt/src/Localization.cpp
 CMakeFiles/main.dir/src/Localization.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Localization.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Localization.cpp.o -MF CMakeFiles/main.dir/src/Localization.cpp.o.d -o CMakeFiles/main.dir/src/Localization.cpp.o -c /home/jedrzej/Studia/JKsqare/src/Localization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Localization.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Localization.cpp.o -MF CMakeFiles/main.dir/src/Localization.cpp.o.d -o CMakeFiles/main.dir/src/Localization.cpp.o -c /home/jedrzej/Studia/Projekt/src/Localization.cpp
 
 CMakeFiles/main.dir/src/Localization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Localization.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/Localization.cpp > CMakeFiles/main.dir/src/Localization.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/Localization.cpp > CMakeFiles/main.dir/src/Localization.cpp.i
 
 CMakeFiles/main.dir/src/Localization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Localization.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/Localization.cpp -o CMakeFiles/main.dir/src/Localization.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/Localization.cpp -o CMakeFiles/main.dir/src/Localization.cpp.s
 
 CMakeFiles/main.dir/src/Wind_inf.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Wind_inf.cpp.o: /home/jedrzej/Studia/JKsqare/src/Wind_inf.cpp
+CMakeFiles/main.dir/src/Wind_inf.cpp.o: /home/jedrzej/Studia/Projekt/src/Wind_inf.cpp
 CMakeFiles/main.dir/src/Wind_inf.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Wind_inf.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Wind_inf.cpp.o -MF CMakeFiles/main.dir/src/Wind_inf.cpp.o.d -o CMakeFiles/main.dir/src/Wind_inf.cpp.o -c /home/jedrzej/Studia/JKsqare/src/Wind_inf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Wind_inf.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Wind_inf.cpp.o -MF CMakeFiles/main.dir/src/Wind_inf.cpp.o.d -o CMakeFiles/main.dir/src/Wind_inf.cpp.o -c /home/jedrzej/Studia/Projekt/src/Wind_inf.cpp
 
 CMakeFiles/main.dir/src/Wind_inf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Wind_inf.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/Wind_inf.cpp > CMakeFiles/main.dir/src/Wind_inf.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/Wind_inf.cpp > CMakeFiles/main.dir/src/Wind_inf.cpp.i
 
 CMakeFiles/main.dir/src/Wind_inf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Wind_inf.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/Wind_inf.cpp -o CMakeFiles/main.dir/src/Wind_inf.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/Wind_inf.cpp -o CMakeFiles/main.dir/src/Wind_inf.cpp.s
 
 CMakeFiles/main.dir/src/Icon.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Icon.cpp.o: /home/jedrzej/Studia/JKsqare/src/Icon.cpp
+CMakeFiles/main.dir/src/Icon.cpp.o: /home/jedrzej/Studia/Projekt/src/Icon.cpp
 CMakeFiles/main.dir/src/Icon.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Icon.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Icon.cpp.o -MF CMakeFiles/main.dir/src/Icon.cpp.o.d -o CMakeFiles/main.dir/src/Icon.cpp.o -c /home/jedrzej/Studia/JKsqare/src/Icon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Icon.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Icon.cpp.o -MF CMakeFiles/main.dir/src/Icon.cpp.o.d -o CMakeFiles/main.dir/src/Icon.cpp.o -c /home/jedrzej/Studia/Projekt/src/Icon.cpp
 
 CMakeFiles/main.dir/src/Icon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Icon.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/Icon.cpp > CMakeFiles/main.dir/src/Icon.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/Icon.cpp > CMakeFiles/main.dir/src/Icon.cpp.i
 
 CMakeFiles/main.dir/src/Icon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Icon.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/Icon.cpp -o CMakeFiles/main.dir/src/Icon.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/Icon.cpp -o CMakeFiles/main.dir/src/Icon.cpp.s
 
 CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o: /home/jedrzej/Studia/JKsqare/src/Extract_Data_Mock.cpp
+CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o: /home/jedrzej/Studia/Projekt/src/Extract_Data_Mock.cpp
 CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o -MF CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o.d -o CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o -c /home/jedrzej/Studia/JKsqare/src/Extract_Data_Mock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o -MF CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o.d -o CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.o -c /home/jedrzej/Studia/Projekt/src/Extract_Data_Mock.cpp
 
 CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/Extract_Data_Mock.cpp > CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/Extract_Data_Mock.cpp > CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.i
 
 CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/Extract_Data_Mock.cpp -o CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/Extract_Data_Mock.cpp -o CMakeFiles/main.dir/src/Extract_Data_Mock.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/main.cpp.o: /home/jedrzej/Studia/JKsqare/src/main.cpp
+CMakeFiles/main.dir/src/main.cpp.o: /home/jedrzej/Studia/Projekt/src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/jedrzej/Studia/JKsqare/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /home/jedrzej/Studia/Projekt/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/ZapisDane.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/ZapisDane.cpp.o: /home/jedrzej/Studia/JKsqare/src/ZapisDane.cpp
+CMakeFiles/main.dir/src/ZapisDane.cpp.o: /home/jedrzej/Studia/Projekt/src/ZapisDane.cpp
 CMakeFiles/main.dir/src/ZapisDane.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/ZapisDane.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ZapisDane.cpp.o -MF CMakeFiles/main.dir/src/ZapisDane.cpp.o.d -o CMakeFiles/main.dir/src/ZapisDane.cpp.o -c /home/jedrzej/Studia/JKsqare/src/ZapisDane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/ZapisDane.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ZapisDane.cpp.o -MF CMakeFiles/main.dir/src/ZapisDane.cpp.o.d -o CMakeFiles/main.dir/src/ZapisDane.cpp.o -c /home/jedrzej/Studia/Projekt/src/ZapisDane.cpp
 
 CMakeFiles/main.dir/src/ZapisDane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ZapisDane.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/ZapisDane.cpp > CMakeFiles/main.dir/src/ZapisDane.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/ZapisDane.cpp > CMakeFiles/main.dir/src/ZapisDane.cpp.i
 
 CMakeFiles/main.dir/src/ZapisDane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ZapisDane.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/ZapisDane.cpp -o CMakeFiles/main.dir/src/ZapisDane.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/ZapisDane.cpp -o CMakeFiles/main.dir/src/ZapisDane.cpp.s
 
 CMakeFiles/main.dir/src/Extract_Wykres.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Extract_Wykres.cpp.o: /home/jedrzej/Studia/JKsqare/src/Extract_Wykres.cpp
+CMakeFiles/main.dir/src/Extract_Wykres.cpp.o: /home/jedrzej/Studia/Projekt/src/Extract_Wykres.cpp
 CMakeFiles/main.dir/src/Extract_Wykres.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/Extract_Wykres.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Extract_Wykres.cpp.o -MF CMakeFiles/main.dir/src/Extract_Wykres.cpp.o.d -o CMakeFiles/main.dir/src/Extract_Wykres.cpp.o -c /home/jedrzej/Studia/JKsqare/src/Extract_Wykres.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/Extract_Wykres.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Extract_Wykres.cpp.o -MF CMakeFiles/main.dir/src/Extract_Wykres.cpp.o.d -o CMakeFiles/main.dir/src/Extract_Wykres.cpp.o -c /home/jedrzej/Studia/Projekt/src/Extract_Wykres.cpp
 
 CMakeFiles/main.dir/src/Extract_Wykres.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Extract_Wykres.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/Extract_Wykres.cpp > CMakeFiles/main.dir/src/Extract_Wykres.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/Extract_Wykres.cpp > CMakeFiles/main.dir/src/Extract_Wykres.cpp.i
 
 CMakeFiles/main.dir/src/Extract_Wykres.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Extract_Wykres.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/Extract_Wykres.cpp -o CMakeFiles/main.dir/src/Extract_Wykres.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/Extract_Wykres.cpp -o CMakeFiles/main.dir/src/Extract_Wykres.cpp.s
 
 CMakeFiles/main.dir/src/mainwindow.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/mainwindow.cpp.o: /home/jedrzej/Studia/JKsqare/src/mainwindow.cpp
+CMakeFiles/main.dir/src/mainwindow.cpp.o: /home/jedrzej/Studia/Projekt/src/mainwindow.cpp
 CMakeFiles/main.dir/src/mainwindow.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/mainwindow.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mainwindow.cpp.o -MF CMakeFiles/main.dir/src/mainwindow.cpp.o.d -o CMakeFiles/main.dir/src/mainwindow.cpp.o -c /home/jedrzej/Studia/JKsqare/src/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/mainwindow.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/mainwindow.cpp.o -MF CMakeFiles/main.dir/src/mainwindow.cpp.o.d -o CMakeFiles/main.dir/src/mainwindow.cpp.o -c /home/jedrzej/Studia/Projekt/src/mainwindow.cpp
 
 CMakeFiles/main.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/mainwindow.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/mainwindow.cpp > CMakeFiles/main.dir/src/mainwindow.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/mainwindow.cpp > CMakeFiles/main.dir/src/mainwindow.cpp.i
 
 CMakeFiles/main.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/mainwindow.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/mainwindow.cpp -o CMakeFiles/main.dir/src/mainwindow.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/mainwindow.cpp -o CMakeFiles/main.dir/src/mainwindow.cpp.s
 
 CMakeFiles/main.dir/src/weatherwindow.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/weatherwindow.cpp.o: /home/jedrzej/Studia/JKsqare/src/weatherwindow.cpp
+CMakeFiles/main.dir/src/weatherwindow.cpp.o: /home/jedrzej/Studia/Projekt/src/weatherwindow.cpp
 CMakeFiles/main.dir/src/weatherwindow.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/weatherwindow.cpp.o"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/weatherwindow.cpp.o -MF CMakeFiles/main.dir/src/weatherwindow.cpp.o.d -o CMakeFiles/main.dir/src/weatherwindow.cpp.o -c /home/jedrzej/Studia/JKsqare/src/weatherwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/weatherwindow.cpp.o"
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/weatherwindow.cpp.o -MF CMakeFiles/main.dir/src/weatherwindow.cpp.o.d -o CMakeFiles/main.dir/src/weatherwindow.cpp.o -c /home/jedrzej/Studia/Projekt/src/weatherwindow.cpp
 
 CMakeFiles/main.dir/src/weatherwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/weatherwindow.cpp.i"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/JKsqare/src/weatherwindow.cpp > CMakeFiles/main.dir/src/weatherwindow.cpp.i
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jedrzej/Studia/Projekt/src/weatherwindow.cpp > CMakeFiles/main.dir/src/weatherwindow.cpp.i
 
 CMakeFiles/main.dir/src/weatherwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/weatherwindow.cpp.s"
-	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/JKsqare/src/weatherwindow.cpp -o CMakeFiles/main.dir/src/weatherwindow.cpp.s
+	/bin/g++-13 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jedrzej/Studia/Projekt/src/weatherwindow.cpp -o CMakeFiles/main.dir/src/weatherwindow.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -262,7 +262,7 @@ main: /home/jedrzej/Studia/Qt/6.5.3/gcc_64/lib/libQt6Core.so.6.5.3
 main: /usr/lib/x86_64-linux-gnu/libGLX.so
 main: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -274,6 +274,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend: main_autogen/timestamp
-	cd /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main.dir/depend
 

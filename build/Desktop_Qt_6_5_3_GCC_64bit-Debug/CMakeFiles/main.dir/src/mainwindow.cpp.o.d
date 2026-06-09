@@ -1,8 +1,8 @@
 CMakeFiles/main.dir/src/mainwindow.cpp.o: \
- /home/jedrzej/Studia/JKsqare/src/mainwindow.cpp \
+ /home/jedrzej/Studia/Projekt/src/mainwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/jedrzej/Studia/JKsqare/include/mainwindow.h \
- /home/jedrzej/Studia/JKsqare/include/app.hpp \
+ /home/jedrzej/Studia/Projekt/include/mainwindow.h \
+ /home/jedrzej/Studia/Projekt/include/app.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

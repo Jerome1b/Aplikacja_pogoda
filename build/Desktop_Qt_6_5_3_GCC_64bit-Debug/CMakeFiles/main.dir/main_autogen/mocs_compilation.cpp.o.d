@@ -1,9 +1,9 @@
 CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_mainwindow.cpp \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/mainwindow.h \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/app.hpp \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_mainwindow.cpp \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/mainwindow.h \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/app.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -559,5 +559,5 @@ CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QValueAxis \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/qvalueaxis.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCore/qtmochelpers.h \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_weatherwindow.cpp \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/weatherwindow.h
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_weatherwindow.cpp \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/../../../../include/weatherwindow.h

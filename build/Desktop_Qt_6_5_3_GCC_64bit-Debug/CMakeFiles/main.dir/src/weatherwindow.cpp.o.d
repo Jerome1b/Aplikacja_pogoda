@@ -1,7 +1,7 @@
 CMakeFiles/main.dir/src/weatherwindow.cpp.o: \
- /home/jedrzej/Studia/JKsqare/src/weatherwindow.cpp \
+ /home/jedrzej/Studia/Projekt/src/weatherwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/jedrzej/Studia/JKsqare/include/weatherwindow.h \
+ /home/jedrzej/Studia/Projekt/include/weatherwindow.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -407,7 +407,7 @@ CMakeFiles/main.dir/src/weatherwindow.cpp.o: \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtGui/qcursor.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtGui/qbitmap.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qtabwidget.h \
- /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/include/ui_weatherwindow.h \
+ /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/include/ui_weatherwindow.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QChartView \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/qchartview.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QAbstractAxis \
@@ -524,7 +524,7 @@ CMakeFiles/main.dir/src/weatherwindow.cpp.o: \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qtextedit.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/QWidget \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qwidget.h \
- /home/jedrzej/Studia/JKsqare/include/app.hpp \
+ /home/jedrzej/Studia/Projekt/include/app.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \

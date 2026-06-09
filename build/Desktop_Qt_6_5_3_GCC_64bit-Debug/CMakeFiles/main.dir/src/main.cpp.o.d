@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/main.cpp.o: \
- /home/jedrzej/Studia/JKsqare/src/main.cpp /usr/include/stdc-predef.h \
- /home/jedrzej/Studia/JKsqare/include/weatherwindow.h \
+ /home/jedrzej/Studia/Projekt/src/main.cpp /usr/include/stdc-predef.h \
+ /home/jedrzej/Studia/Projekt/include/weatherwindow.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/QMainWindow \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qmainwindow.h \
  /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h \

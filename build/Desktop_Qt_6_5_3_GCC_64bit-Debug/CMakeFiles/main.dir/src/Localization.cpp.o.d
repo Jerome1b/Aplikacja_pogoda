@@ -1,6 +1,6 @@
 CMakeFiles/main.dir/src/Localization.cpp.o: \
- /home/jedrzej/Studia/JKsqare/src/Localization.cpp \
- /usr/include/stdc-predef.h /home/jedrzej/Studia/JKsqare/include/app.hpp \
+ /home/jedrzej/Studia/Projekt/src/Localization.cpp \
+ /usr/include/stdc-predef.h /home/jedrzej/Studia/Projekt/include/app.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

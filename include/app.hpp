@@ -41,9 +41,9 @@ class Extract_wykres{
     Interface& client;
 	public:
 	Extract_wykres(double lan, double lon, Interface& client);
-	double wind_v[28];
-	double temp[28];
-	int hum[28];
+    double wind_v[24];
+    double temp[24];
+    int hum[24];
 	void get();	
 };
 

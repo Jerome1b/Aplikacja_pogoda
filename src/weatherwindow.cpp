@@ -126,8 +126,8 @@ void WeatherWindow::on_pushButton_clicked()
         seriesW->append(x,downloader.wind_v[x]);
         seriesH->append(x,downloader.hum[x]);
     }
-    QString t= QString::number(downloader.temp[0]);
-    QString h= QString::number(downloader.hum[0]);
+    QString t= QString::number(downloader.temp[0], 'f', 1);
+    QString h= QString::number(downloader.hum[0], 'f', 1);
     ui->label_6->setText(h+"%");
     ui->label_7->setText(t+"°C");
 

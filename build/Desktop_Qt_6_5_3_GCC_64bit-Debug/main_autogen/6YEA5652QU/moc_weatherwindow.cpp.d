@@ -1,5 +1,5 @@
-/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_weatherwindow.cpp: /home/jedrzej/Studia/JKsqare/include/weatherwindow.h \
-  /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/moc_predefs.h \
+/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_weatherwindow.cpp: /home/jedrzej/Studia/Projekt/include/weatherwindow.h \
+  /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/moc_predefs.h \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCore/q20memory.h \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCore/q20type_traits.h \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCore/qalgorithms.h \

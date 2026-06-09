@@ -60,7 +60,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>591</width>
+      <width>641</width>
       <height>71</height>
      </rect>
     </property>
@@ -87,7 +87,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Ubuntu Sans'; font-size:36pt; font-style:normal; color:#ffffff;&quot;&gt;JKSquare WeatherApp&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QWebEngineView" name="mapView">
+   <widget class="QWebEngineView" name="mapView" native="true">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -192,13 +192,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </font>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::LeftToRight</enum>
+     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -217,13 +217,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </font>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::RightToLeft</enum>
+     <enum>Qt::RightToLeft</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -242,13 +242,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </font>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::RightToLeft</enum>
+     <enum>Qt::RightToLeft</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_7">
@@ -267,13 +267,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </font>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::RightToLeft</enum>
+     <enum>Qt::RightToLeft</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -294,13 +294,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </font>
     </property>
     <property name="layoutDirection">
-     <enum>Qt::LayoutDirection::RightToLeft</enum>
+     <enum>Qt::RightToLeft</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="alignment">
-     <set>Qt::AlignmentFlag::AlignCenter</set>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
@@ -310,7 +310,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <x>0</x>
      <y>0</y>
      <width>1012</width>
-     <height>23</height>
+     <height>22</height>
     </rect>
    </property>
   </widget>

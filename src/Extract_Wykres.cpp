@@ -6,7 +6,7 @@ Extract_wykres::Extract_wykres(double lan, double lon, Interface& client)
 
 
 void Extract_wykres::get() {
-    for(int k = 0; k < 28; k++) {
+    for(int k = 0; k < 24; k++) {
         temp[k] = 0.0;
         wind_v[k] = 0.0;
         hum[k] = 0.0;

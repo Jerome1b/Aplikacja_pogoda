@@ -53,10 +53,10 @@ RM = /home/jedrzej/Studia/Qt/Tools/CMake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jedrzej/Studia/JKsqare
+CMAKE_SOURCE_DIR = /home/jedrzej/Studia/Projekt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
+CMAKE_BINARY_DIR = /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug
 
 # Utility rule file for main_autogen_timestamp_deps.
 
@@ -78,6 +78,6 @@ CMakeFiles/main_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/main_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/main_autogen_timestamp_deps.dir/depend:
-	cd /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/CMakeFiles/main_autogen_timestamp_deps.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/main_autogen_timestamp_deps.dir/depend
 

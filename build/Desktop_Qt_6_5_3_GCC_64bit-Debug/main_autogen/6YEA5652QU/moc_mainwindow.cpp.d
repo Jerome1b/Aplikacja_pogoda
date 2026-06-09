@@ -1,6 +1,6 @@
-/home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/jedrzej/Studia/JKsqare/include/mainwindow.h \
-  /home/jedrzej/Studia/JKsqare/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/moc_predefs.h \
-  /home/jedrzej/Studia/JKsqare/include/app.hpp \
+/home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/6YEA5652QU/moc_mainwindow.cpp: /home/jedrzej/Studia/Projekt/include/mainwindow.h \
+  /home/jedrzej/Studia/Projekt/build/Desktop_Qt_6_5_3_GCC_64bit-Debug/main_autogen/moc_predefs.h \
+  /home/jedrzej/Studia/Projekt/include/app.hpp \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QAbstractAxis \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QAbstractSeries \
   /home/jedrzej/Studia/Qt/6.5.3/gcc_64/include/QtCharts/QChart \
