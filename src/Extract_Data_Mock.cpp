@@ -126,6 +126,8 @@ void Extract_data::get() {
             } else {
                 odp = "0";
             }
+            tem  = dane["main"].value("temp", 273.0) -273.0;
+            hum = dane["main"].value("humidity", 0.0);
 
         } catch (const json::exception& e) {
             std::cout << "Błąd parsowania JSON w Extract_data: " << e.what() << std::endl;

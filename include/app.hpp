@@ -27,6 +27,8 @@ class Extract_data{
     Extract_data(std::string city, Interface& client);
     int id;
     string odp;
+    double tem;
+    double hum;
     double x;
     double y;
     double v;
